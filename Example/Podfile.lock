@@ -1,0 +1,22 @@
+PODS:
+  - Analytics/Core-iOS (1.12.2):
+    - TRVSDictionaryWithCaseInsensitivity (= 0.0.2)
+  - Analytics/Segmentio (1.12.2):
+    - Analytics/Core-iOS
+  - SegmentRepro (0.1.0):
+    - Analytics/Segmentio
+  - TRVSDictionaryWithCaseInsensitivity (0.0.2)
+
+DEPENDENCIES:
+  - SegmentRepro (from `../`)
+
+EXTERNAL SOURCES:
+  SegmentRepro:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Analytics: 08029cf44cab6b82c8b8f00f50860a1054056618
+  SegmentRepro: ee4ecb9424fbc213e2af6fffbbfb8470db3697e0
+  TRVSDictionaryWithCaseInsensitivity: 51d2ccf52c6d645d27b63467a98fa02c556e01b0
+
+COCOAPODS: 0.38.2

@@ -1,0 +1,1257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A0A84B8BEC2E574497C60B153C3847 /* TRVSDictionaryWithCaseInsensitivity.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7C332649EBD85E4C234703669DC6BF /* TRVSDictionaryWithCaseInsensitivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0544C629F285AC3B2BD45B8BE73DD567 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 012020E0FCDD1C76C31DE8E993380646 /* ReplaceMe.m */; };
+		12E1AB55D647B8ECA5A75FD5F72A5BE3 /* SegmentRepro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A04FCE6B81230777FA808097F1B94A /* SegmentRepro-dummy.m */; };
+		192E814ACAD4D6A12BBEA021B257E19A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA09EC5CBE847C34362D2078C89D18D9 /* Foundation.framework */; };
+		2CBB219A4A0883CA53130BBC41987E75 /* Analytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A69400DD7D4B260CBEDD43BACC3DB6 /* Analytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DDDB0CEE476E935E6203D3FE299C54E /* SEGAnalyticsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CF585C9A0D8FCF4CD328C000437E0B /* SEGAnalyticsUtils.m */; };
+		43A370708C6F806F8D991B060C21DD96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA09EC5CBE847C34362D2078C89D18D9 /* Foundation.framework */; };
+		4542340C50D2F24933CBA7B724E643C0 /* SEGAnalyticsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2D55FB46BFFAA62A41DECF28645E1F /* SEGAnalyticsRequest.m */; };
+		46DD9444CB892E6347392193AA36AA1C /* Pods-SegmentRepro_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC7BC7AEBE34C8CC06F0CC658B055F /* Pods-SegmentRepro_Tests-dummy.m */; };
+		481EBC5B16357979EBE9819D9E779754 /* SEGLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D661D43299D2C5B5C9F21DED6D1252A6 /* SEGLocation.m */; };
+		4DF485D4D906D0E3F423FE4B6564BBC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA09EC5CBE847C34362D2078C89D18D9 /* Foundation.framework */; };
+		5E32DA5505DA1050A4229CFA97706763 /* TRVSDictionaryWithCaseInsensitivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 614DAC01EF3CB3AEF9CCD2A59774E0BB /* TRVSDictionaryWithCaseInsensitivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EF75569A87EB97723B617AB86813641 /* SEGBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = 966D52E998F13944B6AC01C66B347918 /* SEGBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AD4C28E9C0FAE86BCAE74078F2B771E /* SEGAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A5CDE41A88EA14733586CEC4C80F4E /* SEGAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71DFC5329872722A4FCE8E01E31B7A1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA09EC5CBE847C34362D2078C89D18D9 /* Foundation.framework */; };
+		7E5ABA500B69CD278741D8CDBF052CD9 /* Pods-SegmentRepro_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0977195C4237EB0F14DBCB11E01D0807 /* Pods-SegmentRepro_Example-dummy.m */; };
+		8525585ECE89AFDD1B80A786707B478E /* SEGAnalyticsIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2196795E7F2D46B3B6658D862BBA80 /* SEGAnalyticsIntegration.m */; };
+		8C84F2C1BA27EEE3732FB1F6829289BD /* SEGAnalyticsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F643CAAC69B9D9CC31733D9B2B448C76 /* SEGAnalyticsRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D8E05997CD4D7960DC9D1F313E63521 /* SEGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = EB258A1C97DB0CF6D0035204EB8ACBFC /* SEGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		908DF76F006FA8A5C165600369BBA072 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F1F64002B14792EDFD1AAFC23D7E79 /* Analytics.framework */; };
+		9294AD95D5E693554CA5DF9E832A96A7 /* SEGBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 449378AEEC11324BC96571D7F98A32CE /* SEGBluetooth.m */; };
+		97A0AD1E6DCEEBF639A12F0BB139FF63 /* TRVSDictionaryWithCaseInsensitivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FFEE104BBE008755935211E188EE4D /* TRVSDictionaryWithCaseInsensitivity-dummy.m */; };
+		A1377CC8BE4B025AC928EB9A596F91AE /* TRVSDictionaryWithCaseInsensitivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF817351D31999F2B9796DC12A9BD225 /* TRVSDictionaryWithCaseInsensitivity.framework */; };
+		ACCDF80292CBAA91AE39007C01D06609 /* SEGAnalyticsIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB96044F6C75D36608A2910EA205644 /* SEGAnalyticsIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4106F0BC5DFD71BE15F14ADB11590C /* Analytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF9BCE9FFC323C0A5E72F5C4CC2947F /* Analytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC14E7E18ABD986F5A5655D469A21186 /* Pods-SegmentRepro_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C711183B80A335E61657B3D2E51A6B42 /* Pods-SegmentRepro_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDF385E144FD9D91251D66AA7E24498D /* SEGAnalyticsIntegrations.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A14DC6B4D0F2B8A7F36BFA5891327C /* SEGAnalyticsIntegrations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C97F0156C5588804664AB7947FD9F5B1 /* SegmentRepro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0654F3A9B92F2669DCD89B13F3FD551B /* SegmentRepro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBE16A229E82AE5FC976AA606739E2DF /* SEGAnalyticsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C414FC8143C6DE3EEDE7BDBD0ACD2D /* SEGAnalyticsUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCD444F0FB99C7DCE24544E4F68ED28B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA09EC5CBE847C34362D2078C89D18D9 /* Foundation.framework */; };
+		CF6A752D47E1407D09D1203CFF78315E /* SEGSegmentioIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB35DDE504F480E2335E2797F0FCF38 /* SEGSegmentioIntegration.m */; };
+		D11825D636531BBC2A8F287841195815 /* SEGEcommerce.h in Headers */ = {isa = PBXBuildFile; fileRef = 5075636E9AA2209295F59D285F2D80F4 /* SEGEcommerce.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D46AB70A04C1B8308F152B5F70DB2EF4 /* SEGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCC7EEAD403236C9D42D591FC813A4 /* SEGReachability.m */; };
+		DBEAAD139DB643A533381FFF5E67F432 /* Analytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A17CC28BC71A3F968DE529743C0C40 /* Analytics-dummy.m */; };
+		DDEBBF2E585058C24AC648089C40F284 /* SegmentRepro.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF28E83820AA16F3E7217B544243F6A2 /* SegmentRepro.bundle */; };
+		F402236297044986AD29E466BBCA6E7A /* TRVSDictionaryWithCaseInsensitivity.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA258C1C1788E323F93B35A7D226945 /* TRVSDictionaryWithCaseInsensitivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F8C47777E0D2D4365F22BC80AAB8067D /* SEGAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F52E9803149257789133F99D1E924 /* SEGAnalytics.m */; };
+		F93E3AA6A36441D3039823067A013261 /* Pods-SegmentRepro_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7666301B9B6F272EFF1EABC03A3AD2D /* Pods-SegmentRepro_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA882202340B024A558E8B37483006D1 /* SEGLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2132FFCE147328A03DC1FC3920CD928F /* SEGLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE4A9AA6F3CBCF6DADDC12E1511C512C /* SEGSegmentioIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 766735EB97425562F0061DA019CAFE9D /* SEGSegmentioIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42379A0A572506D150ABABCD47C84265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C837540E7A68861503F0512C398180C;
+			remoteInfo = Analytics;
+		};
+		44FAEAF6F2331A928C5F67BBC7E9661D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C882D776CFD5FD97A2CCB556219F11F;
+			remoteInfo = SegmentRepro;
+		};
+		8E6E8BD940536D67037746ACD98BEB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B1ADE440ACA62EDDD1563AAE767989;
+			remoteInfo = TRVSDictionaryWithCaseInsensitivity;
+		};
+		9FE2B668E4638A4D53025CDE3C380723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C837540E7A68861503F0512C398180C;
+			remoteInfo = Analytics;
+		};
+		BE4C7F8181A5D77BD5A5EE3B58EED716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51CE738AD0FECF258608BDD116D49643;
+			remoteInfo = "SegmentRepro-SegmentRepro";
+		};
+		CE50B6774C2FD6AB76788D001A36C8AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C882D776CFD5FD97A2CCB556219F11F;
+			remoteInfo = SegmentRepro;
+		};
+		EDB8C39B5509166CDD46815FBDD3A141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C837540E7A68861503F0512C398180C;
+			remoteInfo = Analytics;
+		};
+		EF76093E6AD5B17794E785D84DB2A62B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B1ADE440ACA62EDDD1563AAE767989;
+			remoteInfo = TRVSDictionaryWithCaseInsensitivity;
+		};
+		F5CE516EE23386F1D67171B57DB94BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B1ADE440ACA62EDDD1563AAE767989;
+			remoteInfo = TRVSDictionaryWithCaseInsensitivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012020E0FCDD1C76C31DE8E993380646 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		0283771289560621B1ECBCB5F0E75E96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0654F3A9B92F2669DCD89B13F3FD551B /* SegmentRepro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegmentRepro-umbrella.h"; sourceTree = "<group>"; };
+		0977195C4237EB0F14DBCB11E01D0807 /* Pods-SegmentRepro_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmentRepro_Example-dummy.m"; sourceTree = "<group>"; };
+		15CF585C9A0D8FCF4CD328C000437E0B /* SEGAnalyticsUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsUtils.m; path = Analytics/SEGAnalyticsUtils.m; sourceTree = "<group>"; };
+		1DBCAD027EEC61FDDDDE584226294866 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ECFBA2446AFE4963E50A5CFDF74BC8D /* SegmentRepro-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SegmentRepro-Private.xcconfig"; sourceTree = "<group>"; };
+		2132FFCE147328A03DC1FC3920CD928F /* SEGLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGLocation.h; path = Analytics/Helpers/SEGLocation.h; sourceTree = "<group>"; };
+		22C414FC8143C6DE3EEDE7BDBD0ACD2D /* SEGAnalyticsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsUtils.h; path = Analytics/SEGAnalyticsUtils.h; sourceTree = "<group>"; };
+		231EBE1714D0A1FBFDC6E3865763263B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F1F64002B14792EDFD1AAFC23D7E79 /* Analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Analytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A17CC28BC71A3F968DE529743C0C40 /* Analytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Analytics-dummy.m"; sourceTree = "<group>"; };
+		370CECCE6CE982F8D15C23EA91B12EE2 /* Pods-SegmentRepro_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentRepro_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D297526EC16A94EDBD1902D122EFFAA /* Pods-SegmentRepro_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmentRepro_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3E49D7277E7D66C41ABE78905AADE7AE /* SegmentRepro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SegmentRepro.xcconfig; sourceTree = "<group>"; };
+		449378AEEC11324BC96571D7F98A32CE /* SEGBluetooth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGBluetooth.m; path = Analytics/Helpers/SEGBluetooth.m; sourceTree = "<group>"; };
+		4CBD34A7B92D26F41324AB910074CF79 /* Analytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Analytics.modulemap; sourceTree = "<group>"; };
+		4F55877E8DF033DD76723D8C12E9EB31 /* Analytics-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Analytics-Private.xcconfig"; sourceTree = "<group>"; };
+		5075636E9AA2209295F59D285F2D80F4 /* SEGEcommerce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGEcommerce.h; path = Analytics/SEGEcommerce.h; sourceTree = "<group>"; };
+		50DE2C011F8C4F86BA4F301DAD567FC4 /* Analytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Analytics.xcconfig; sourceTree = "<group>"; };
+		51A14DC6B4D0F2B8A7F36BFA5891327C /* SEGAnalyticsIntegrations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsIntegrations.h; path = Analytics/Integrations/SEGAnalyticsIntegrations.h; sourceTree = "<group>"; };
+		5EF3A5FAC673A04FC461FAFA3DFDB169 /* Pods-SegmentRepro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentRepro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		614DAC01EF3CB3AEF9CCD2A59774E0BB /* TRVSDictionaryWithCaseInsensitivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRVSDictionaryWithCaseInsensitivity-umbrella.h"; sourceTree = "<group>"; };
+		64A8E4A44E1F42E0B004A58FFC3B711A /* SegmentRepro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SegmentRepro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A2B2C0BAE9953AAA4D4E84BD620FD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A5CDE41A88EA14733586CEC4C80F4E /* SEGAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalytics.h; path = Analytics/SEGAnalytics.h; sourceTree = "<group>"; };
+		75FFEE104BBE008755935211E188EE4D /* TRVSDictionaryWithCaseInsensitivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRVSDictionaryWithCaseInsensitivity-dummy.m"; sourceTree = "<group>"; };
+		766735EB97425562F0061DA019CAFE9D /* SEGSegmentioIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentioIntegration.h; path = Analytics/Integrations/Segmentio/SEGSegmentioIntegration.h; sourceTree = "<group>"; };
+		7ED5E9F07CCCF44D9C7CECD83F6E9B45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8092D561F5EEADF1B4D2ADCB3FB73DC2 /* Pods-SegmentRepro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SegmentRepro_Tests.modulemap"; sourceTree = "<group>"; };
+		825593F8BFF5D8AE1723BD63C10D6984 /* TRVSDictionaryWithCaseInsensitivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TRVSDictionaryWithCaseInsensitivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CC7BC7AEBE34C8CC06F0CC658B055F /* Pods-SegmentRepro_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmentRepro_Tests-dummy.m"; sourceTree = "<group>"; };
+		8611E277C94156D800113FA693EC1027 /* SegmentRepro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegmentRepro-prefix.pch"; sourceTree = "<group>"; };
+		875DD5A6895BB5959BE50B373E11B9C9 /* Pods-SegmentRepro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SegmentRepro_Example.modulemap"; sourceTree = "<group>"; };
+		8BCCC7EEAD403236C9D42D591FC813A4 /* SEGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGReachability.m; path = Analytics/Helpers/SEGReachability.m; sourceTree = "<group>"; };
+		8F061CDDC676AB7655B72A838FCD1614 /* Pods-SegmentRepro_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmentRepro_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94A69400DD7D4B260CBEDD43BACC3DB6 /* Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Analytics.h; path = Analytics/Analytics.h; sourceTree = "<group>"; };
+		966D52E998F13944B6AC01C66B347918 /* SEGBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGBluetooth.h; path = Analytics/Helpers/SEGBluetooth.h; sourceTree = "<group>"; };
+		99A04FCE6B81230777FA808097F1B94A /* SegmentRepro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SegmentRepro-dummy.m"; sourceTree = "<group>"; };
+		9A73145B917FB551FD193E8199B0531B /* Pods-SegmentRepro_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmentRepro_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9B959CB30235DC6D1C0DDCB3011C338B /* TRVSDictionaryWithCaseInsensitivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRVSDictionaryWithCaseInsensitivity.xcconfig; sourceTree = "<group>"; };
+		A1F47DCEE2603E6E4FF1EA02C2A15A40 /* Pods-SegmentRepro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentRepro_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A64DA61DD85525D4726BB39A2BD39817 /* Analytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Analytics-prefix.pch"; sourceTree = "<group>"; };
+		A6E9D3B48262A28A6A9C69AC47BD7D25 /* Analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Analytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7666301B9B6F272EFF1EABC03A3AD2D /* Pods-SegmentRepro_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SegmentRepro_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AC32F8F395A74D986CD70B7CC81355C6 /* Pods_SegmentRepro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentRepro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAB35DDE504F480E2335E2797F0FCF38 /* SEGSegmentioIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentioIntegration.m; path = Analytics/Integrations/Segmentio/SEGSegmentioIntegration.m; sourceTree = "<group>"; };
+		BDF9BCE9FFC323C0A5E72F5C4CC2947F /* Analytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Analytics-umbrella.h"; sourceTree = "<group>"; };
+		BEB96044F6C75D36608A2910EA205644 /* SEGAnalyticsIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsIntegration.h; path = Analytics/SEGAnalyticsIntegration.h; sourceTree = "<group>"; };
+		C4A6BE7AE4C44504554E9ACC66B6BD62 /* Pods_SegmentRepro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentRepro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65E8C2ADFD6D73C0AD2B5FE5AD75160 /* Pods-SegmentRepro_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmentRepro_Example-resources.sh"; sourceTree = "<group>"; };
+		C711183B80A335E61657B3D2E51A6B42 /* Pods-SegmentRepro_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SegmentRepro_Example-umbrella.h"; sourceTree = "<group>"; };
+		C893E0416D5597A3CF63201791D416DF /* Pods-SegmentRepro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentRepro_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA258C1C1788E323F93B35A7D226945 /* TRVSDictionaryWithCaseInsensitivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRVSDictionaryWithCaseInsensitivity.m; path = TRVSDictionaryWithCaseInsensitivity/TRVSDictionaryWithCaseInsensitivity.m; sourceTree = "<group>"; };
+		CE7E55AA120C22417AC0E0E739EDFDDD /* TRVSDictionaryWithCaseInsensitivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRVSDictionaryWithCaseInsensitivity-prefix.pch"; sourceTree = "<group>"; };
+		CF3F52E9803149257789133F99D1E924 /* SEGAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalytics.m; path = Analytics/SEGAnalytics.m; sourceTree = "<group>"; };
+		D661D43299D2C5B5C9F21DED6D1252A6 /* SEGLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGLocation.m; path = Analytics/Helpers/SEGLocation.m; sourceTree = "<group>"; };
+		DE2196795E7F2D46B3B6658D862BBA80 /* SEGAnalyticsIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsIntegration.m; path = Analytics/SEGAnalyticsIntegration.m; sourceTree = "<group>"; };
+		DF817351D31999F2B9796DC12A9BD225 /* TRVSDictionaryWithCaseInsensitivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TRVSDictionaryWithCaseInsensitivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E160F06ECCBA6F4D6416150BB6B8CCFE /* SegmentRepro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SegmentRepro.modulemap; sourceTree = "<group>"; };
+		E2EE001D31C10B3C5181532F2D810F9C /* Pods-SegmentRepro_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmentRepro_Tests-resources.sh"; sourceTree = "<group>"; };
+		E9873C975567A341DFD0C781F76F3CDE /* TRVSDictionaryWithCaseInsensitivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TRVSDictionaryWithCaseInsensitivity.modulemap; sourceTree = "<group>"; };
+		EB258A1C97DB0CF6D0035204EB8ACBFC /* SEGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGReachability.h; path = Analytics/Helpers/SEGReachability.h; sourceTree = "<group>"; };
+		EC95292A7C2B5FE58859DE94C5B31D5F /* Pods-SegmentRepro_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentRepro_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F643CAAC69B9D9CC31733D9B2B448C76 /* SEGAnalyticsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsRequest.h; path = Analytics/SEGAnalyticsRequest.h; sourceTree = "<group>"; };
+		F862A65D42C3C178AC67D82B8AC17F4E /* Pods-SegmentRepro_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmentRepro_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8B4316A95DD6F7E471C4E10BD416D13 /* TRVSDictionaryWithCaseInsensitivity-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TRVSDictionaryWithCaseInsensitivity-Private.xcconfig"; sourceTree = "<group>"; };
+		F97419D9C4077C865C701375B3FE187A /* Pods-SegmentRepro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentRepro_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FA09EC5CBE847C34362D2078C89D18D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FB7C332649EBD85E4C234703669DC6BF /* TRVSDictionaryWithCaseInsensitivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRVSDictionaryWithCaseInsensitivity.h; path = TRVSDictionaryWithCaseInsensitivity/TRVSDictionaryWithCaseInsensitivity.h; sourceTree = "<group>"; };
+		FE2D55FB46BFFAA62A41DECF28645E1F /* SEGAnalyticsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsRequest.m; path = Analytics/SEGAnalyticsRequest.m; sourceTree = "<group>"; };
+		FF28E83820AA16F3E7217B544243F6A2 /* SegmentRepro.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentRepro.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02BCF9C910AAC7E569B15FFF07A8A5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DFC5329872722A4FCE8E01E31B7A1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E812F15445C543C601C0B937E9A343B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF485D4D906D0E3F423FE4B6564BBC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6547488FB146B73E740232C87D49BD1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908DF76F006FA8A5C165600369BBA072 /* Analytics.framework in Frameworks */,
+				43A370708C6F806F8D991B060C21DD96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7129EF5ADFFE9FFA8A1B274E06E378ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192E814ACAD4D6A12BBEA021B257E19A /* Foundation.framework in Frameworks */,
+				A1377CC8BE4B025AC928EB9A596F91AE /* TRVSDictionaryWithCaseInsensitivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C78C976659A81D4181236AA0C5CC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32AFB4D0A9ECD34875986497D3ABD3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD444F0FB99C7DCE24544E4F68ED28B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23E78D2AE50C23CB741B19A160F163F9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BFCC981D31196585C4E559AE2E2457A /* SegmentRepro */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2A4FF3C31628E1CE1A3865B27633AE29 /* Pods-SegmentRepro_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				68A2B2C0BAE9953AAA4D4E84BD620FD7 /* Info.plist */,
+				8092D561F5EEADF1B4D2ADCB3FB73DC2 /* Pods-SegmentRepro_Tests.modulemap */,
+				F862A65D42C3C178AC67D82B8AC17F4E /* Pods-SegmentRepro_Tests-acknowledgements.markdown */,
+				370CECCE6CE982F8D15C23EA91B12EE2 /* Pods-SegmentRepro_Tests-acknowledgements.plist */,
+				82CC7BC7AEBE34C8CC06F0CC658B055F /* Pods-SegmentRepro_Tests-dummy.m */,
+				9A73145B917FB551FD193E8199B0531B /* Pods-SegmentRepro_Tests-frameworks.sh */,
+				E2EE001D31C10B3C5181532F2D810F9C /* Pods-SegmentRepro_Tests-resources.sh */,
+				A7666301B9B6F272EFF1EABC03A3AD2D /* Pods-SegmentRepro_Tests-umbrella.h */,
+				5EF3A5FAC673A04FC461FAFA3DFDB169 /* Pods-SegmentRepro_Tests.debug.xcconfig */,
+				F97419D9C4077C865C701375B3FE187A /* Pods-SegmentRepro_Tests.release.xcconfig */,
+			);
+			name = "Pods-SegmentRepro_Tests";
+			path = "Target Support Files/Pods-SegmentRepro_Tests";
+			sourceTree = "<group>";
+		};
+		2BFCC981D31196585C4E559AE2E2457A /* SegmentRepro */ = {
+			isa = PBXGroup;
+			children = (
+				BB8F771FFA8F4A673B6BDF1C94915F78 /* Pod */,
+				3E3676870D4893A458CF26CA39C344C7 /* Support Files */,
+			);
+			name = SegmentRepro;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2DD179F1B3BF6C899C944124F07020C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24F1F64002B14792EDFD1AAFC23D7E79 /* Analytics.framework */,
+				DF817351D31999F2B9796DC12A9BD225 /* TRVSDictionaryWithCaseInsensitivity.framework */,
+				6F55F3836D64645E56A092AA0726A6CE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DA3830DD881DC0923C2994C13592FE5 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF7BB190476E543E21D06C4650F19E /* Core-iOS */,
+				4EA8F251B1A3FEEDA4DC382177B8C25B /* Segmentio */,
+				A7EB01E9FDECD99B5F1F61D8E9854AB0 /* Support Files */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		3E3676870D4893A458CF26CA39C344C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ED5E9F07CCCF44D9C7CECD83F6E9B45 /* Info.plist */,
+				E160F06ECCBA6F4D6416150BB6B8CCFE /* SegmentRepro.modulemap */,
+				3E49D7277E7D66C41ABE78905AADE7AE /* SegmentRepro.xcconfig */,
+				1ECFBA2446AFE4963E50A5CFDF74BC8D /* SegmentRepro-Private.xcconfig */,
+				99A04FCE6B81230777FA808097F1B94A /* SegmentRepro-dummy.m */,
+				8611E277C94156D800113FA693EC1027 /* SegmentRepro-prefix.pch */,
+				0654F3A9B92F2669DCD89B13F3FD551B /* SegmentRepro-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SegmentRepro";
+			sourceTree = "<group>";
+		};
+		4856BBF4E056F7D55F2CBD1E6179BD78 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				012020E0FCDD1C76C31DE8E993380646 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4B3BDB09055E6132AC395B6B995135C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DA3830DD881DC0923C2994C13592FE5 /* Analytics */,
+				7522270AB03D646FE7705EECFDA07074 /* TRVSDictionaryWithCaseInsensitivity */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4EA8F251B1A3FEEDA4DC382177B8C25B /* Segmentio */ = {
+			isa = PBXGroup;
+			children = (
+				766735EB97425562F0061DA019CAFE9D /* SEGSegmentioIntegration.h */,
+				BAB35DDE504F480E2335E2797F0FCF38 /* SEGSegmentioIntegration.m */,
+			);
+			name = Segmentio;
+			sourceTree = "<group>";
+		};
+		6ABF7BB190476E543E21D06C4650F19E /* Core-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				94A69400DD7D4B260CBEDD43BACC3DB6 /* Analytics.h */,
+				69A5CDE41A88EA14733586CEC4C80F4E /* SEGAnalytics.h */,
+				CF3F52E9803149257789133F99D1E924 /* SEGAnalytics.m */,
+				BEB96044F6C75D36608A2910EA205644 /* SEGAnalyticsIntegration.h */,
+				DE2196795E7F2D46B3B6658D862BBA80 /* SEGAnalyticsIntegration.m */,
+				51A14DC6B4D0F2B8A7F36BFA5891327C /* SEGAnalyticsIntegrations.h */,
+				F643CAAC69B9D9CC31733D9B2B448C76 /* SEGAnalyticsRequest.h */,
+				FE2D55FB46BFFAA62A41DECF28645E1F /* SEGAnalyticsRequest.m */,
+				22C414FC8143C6DE3EEDE7BDBD0ACD2D /* SEGAnalyticsUtils.h */,
+				15CF585C9A0D8FCF4CD328C000437E0B /* SEGAnalyticsUtils.m */,
+				966D52E998F13944B6AC01C66B347918 /* SEGBluetooth.h */,
+				449378AEEC11324BC96571D7F98A32CE /* SEGBluetooth.m */,
+				5075636E9AA2209295F59D285F2D80F4 /* SEGEcommerce.h */,
+				2132FFCE147328A03DC1FC3920CD928F /* SEGLocation.h */,
+				D661D43299D2C5B5C9F21DED6D1252A6 /* SEGLocation.m */,
+				EB258A1C97DB0CF6D0035204EB8ACBFC /* SEGReachability.h */,
+				8BCCC7EEAD403236C9D42D591FC813A4 /* SEGReachability.m */,
+			);
+			name = "Core-iOS";
+			sourceTree = "<group>";
+		};
+		6F55F3836D64645E56A092AA0726A6CE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA09EC5CBE847C34362D2078C89D18D9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7522270AB03D646FE7705EECFDA07074 /* TRVSDictionaryWithCaseInsensitivity */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C332649EBD85E4C234703669DC6BF /* TRVSDictionaryWithCaseInsensitivity.h */,
+				CBA258C1C1788E323F93B35A7D226945 /* TRVSDictionaryWithCaseInsensitivity.m */,
+				8A6450ED23707E17660E6BD9197E8799 /* Support Files */,
+			);
+			path = TRVSDictionaryWithCaseInsensitivity;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				23E78D2AE50C23CB741B19A160F163F9 /* Development Pods */,
+				2DD179F1B3BF6C899C944124F07020C0 /* Frameworks */,
+				4B3BDB09055E6132AC395B6B995135C8 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				EED9576A6EA7A15D889DA24C43F89996 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A6450ED23707E17660E6BD9197E8799 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				231EBE1714D0A1FBFDC6E3865763263B /* Info.plist */,
+				E9873C975567A341DFD0C781F76F3CDE /* TRVSDictionaryWithCaseInsensitivity.modulemap */,
+				9B959CB30235DC6D1C0DDCB3011C338B /* TRVSDictionaryWithCaseInsensitivity.xcconfig */,
+				F8B4316A95DD6F7E471C4E10BD416D13 /* TRVSDictionaryWithCaseInsensitivity-Private.xcconfig */,
+				75FFEE104BBE008755935211E188EE4D /* TRVSDictionaryWithCaseInsensitivity-dummy.m */,
+				CE7E55AA120C22417AC0E0E739EDFDDD /* TRVSDictionaryWithCaseInsensitivity-prefix.pch */,
+				614DAC01EF3CB3AEF9CCD2A59774E0BB /* TRVSDictionaryWithCaseInsensitivity-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TRVSDictionaryWithCaseInsensitivity";
+			sourceTree = "<group>";
+		};
+		96E27348A2B2EE0816AC31C3321D20DA /* Pods-SegmentRepro_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1DBCAD027EEC61FDDDDE584226294866 /* Info.plist */,
+				875DD5A6895BB5959BE50B373E11B9C9 /* Pods-SegmentRepro_Example.modulemap */,
+				8F061CDDC676AB7655B72A838FCD1614 /* Pods-SegmentRepro_Example-acknowledgements.markdown */,
+				EC95292A7C2B5FE58859DE94C5B31D5F /* Pods-SegmentRepro_Example-acknowledgements.plist */,
+				0977195C4237EB0F14DBCB11E01D0807 /* Pods-SegmentRepro_Example-dummy.m */,
+				3D297526EC16A94EDBD1902D122EFFAA /* Pods-SegmentRepro_Example-frameworks.sh */,
+				C65E8C2ADFD6D73C0AD2B5FE5AD75160 /* Pods-SegmentRepro_Example-resources.sh */,
+				C711183B80A335E61657B3D2E51A6B42 /* Pods-SegmentRepro_Example-umbrella.h */,
+				C893E0416D5597A3CF63201791D416DF /* Pods-SegmentRepro_Example.debug.xcconfig */,
+				A1F47DCEE2603E6E4FF1EA02C2A15A40 /* Pods-SegmentRepro_Example.release.xcconfig */,
+			);
+			name = "Pods-SegmentRepro_Example";
+			path = "Target Support Files/Pods-SegmentRepro_Example";
+			sourceTree = "<group>";
+		};
+		A7EB01E9FDECD99B5F1F61D8E9854AB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CBD34A7B92D26F41324AB910074CF79 /* Analytics.modulemap */,
+				50DE2C011F8C4F86BA4F301DAD567FC4 /* Analytics.xcconfig */,
+				4F55877E8DF033DD76723D8C12E9EB31 /* Analytics-Private.xcconfig */,
+				27A17CC28BC71A3F968DE529743C0C40 /* Analytics-dummy.m */,
+				A64DA61DD85525D4726BB39A2BD39817 /* Analytics-prefix.pch */,
+				BDF9BCE9FFC323C0A5E72F5C4CC2947F /* Analytics-umbrella.h */,
+				0283771289560621B1ECBCB5F0E75E96 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Analytics";
+			sourceTree = "<group>";
+		};
+		BB8F771FFA8F4A673B6BDF1C94915F78 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4856BBF4E056F7D55F2CBD1E6179BD78 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9D3B48262A28A6A9C69AC47BD7D25 /* Analytics.framework */,
+				C4A6BE7AE4C44504554E9ACC66B6BD62 /* Pods_SegmentRepro_Example.framework */,
+				AC32F8F395A74D986CD70B7CC81355C6 /* Pods_SegmentRepro_Tests.framework */,
+				FF28E83820AA16F3E7217B544243F6A2 /* SegmentRepro.bundle */,
+				64A8E4A44E1F42E0B004A58FFC3B711A /* SegmentRepro.framework */,
+				825593F8BFF5D8AE1723BD63C10D6984 /* TRVSDictionaryWithCaseInsensitivity.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED9576A6EA7A15D889DA24C43F89996 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96E27348A2B2EE0816AC31C3321D20DA /* Pods-SegmentRepro_Example */,
+				2A4FF3C31628E1CE1A3865B27633AE29 /* Pods-SegmentRepro_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9BC2BDE7C953062ADB6B9ECA533E3B7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E32DA5505DA1050A4229CFA97706763 /* TRVSDictionaryWithCaseInsensitivity-umbrella.h in Headers */,
+				00A0A84B8BEC2E574497C60B153C3847 /* TRVSDictionaryWithCaseInsensitivity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC78A614796F8263275F2FDDF934A5DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4106F0BC5DFD71BE15F14ADB11590C /* Analytics-umbrella.h in Headers */,
+				2CBB219A4A0883CA53130BBC41987E75 /* Analytics.h in Headers */,
+				6AD4C28E9C0FAE86BCAE74078F2B771E /* SEGAnalytics.h in Headers */,
+				ACCDF80292CBAA91AE39007C01D06609 /* SEGAnalyticsIntegration.h in Headers */,
+				BDF385E144FD9D91251D66AA7E24498D /* SEGAnalyticsIntegrations.h in Headers */,
+				8C84F2C1BA27EEE3732FB1F6829289BD /* SEGAnalyticsRequest.h in Headers */,
+				CBE16A229E82AE5FC976AA606739E2DF /* SEGAnalyticsUtils.h in Headers */,
+				5EF75569A87EB97723B617AB86813641 /* SEGBluetooth.h in Headers */,
+				D11825D636531BBC2A8F287841195815 /* SEGEcommerce.h in Headers */,
+				FA882202340B024A558E8B37483006D1 /* SEGLocation.h in Headers */,
+				8D8E05997CD4D7960DC9D1F313E63521 /* SEGReachability.h in Headers */,
+				FE4A9AA6F3CBCF6DADDC12E1511C512C /* SEGSegmentioIntegration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C268A5AA70D05320AF0201C22A01B9DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97F0156C5588804664AB7947FD9F5B1 /* SegmentRepro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC627AC9A4BC6045A6F857850F9FED04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93E3AA6A36441D3039823067A013261 /* Pods-SegmentRepro_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF41B2299E93ABCF5E7CE7FB01DC6782 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC14E7E18ABD986F5A5655D469A21186 /* Pods-SegmentRepro_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14C21D99ABBEE017172FB1038D7507C3 /* Pods-SegmentRepro_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3309228B68F8448520E9720E4148864A /* Build configuration list for PBXNativeTarget "Pods-SegmentRepro_Example" */;
+			buildPhases = (
+				E99146708EEE821F1F4E5CFF7B0324B1 /* Sources */,
+				D32AFB4D0A9ECD34875986497D3ABD3C /* Frameworks */,
+				FF41B2299E93ABCF5E7CE7FB01DC6782 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40A4E4687DAD0D24EF746113905D926 /* PBXTargetDependency */,
+				9972A81D53AB7D1E06EB7C330E2CEAD2 /* PBXTargetDependency */,
+				4FFE77C510F6F75B560D03417E0C1EFD /* PBXTargetDependency */,
+			);
+			name = "Pods-SegmentRepro_Example";
+			productName = "Pods-SegmentRepro_Example";
+			productReference = C4A6BE7AE4C44504554E9ACC66B6BD62 /* Pods_SegmentRepro_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		331FDE180D875AF317B4CFFDDF6BDF54 /* Pods-SegmentRepro_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EEBF454F0BC50278106AB6E777E89A /* Build configuration list for PBXNativeTarget "Pods-SegmentRepro_Tests" */;
+			buildPhases = (
+				E5C6F24AD2E85E8C301E2F4463B4AAFA /* Sources */,
+				02BCF9C910AAC7E569B15FFF07A8A5B1 /* Frameworks */,
+				EC627AC9A4BC6045A6F857850F9FED04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85939DAC71AAA2DC099F40D31A5E6BE1 /* PBXTargetDependency */,
+				5033F62317B2A43970B3E204143E51DF /* PBXTargetDependency */,
+				E8A7FCE0F084ACC8AA7B31A813036C4E /* PBXTargetDependency */,
+			);
+			name = "Pods-SegmentRepro_Tests";
+			productName = "Pods-SegmentRepro_Tests";
+			productReference = AC32F8F395A74D986CD70B7CC81355C6 /* Pods_SegmentRepro_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C882D776CFD5FD97A2CCB556219F11F /* SegmentRepro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A656B6AF8DE72D2FD1C98F55D1F662F /* Build configuration list for PBXNativeTarget "SegmentRepro" */;
+			buildPhases = (
+				A8C04D2FCD496623E19E725D9231868D /* Sources */,
+				6547488FB146B73E740232C87D49BD1B /* Frameworks */,
+				CEDC6E8F7D375637ECD97093B184029E /* Resources */,
+				C268A5AA70D05320AF0201C22A01B9DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820490EB2D09E2702E6A123237CE182A /* PBXTargetDependency */,
+				FF8B1D13D5C482A06690933C709E97C7 /* PBXTargetDependency */,
+			);
+			name = SegmentRepro;
+			productName = SegmentRepro;
+			productReference = 64A8E4A44E1F42E0B004A58FFC3B711A /* SegmentRepro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51CE738AD0FECF258608BDD116D49643 /* SegmentRepro-SegmentRepro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9DE6B059120E9679DDAF2C3139CF539 /* Build configuration list for PBXNativeTarget "SegmentRepro-SegmentRepro" */;
+			buildPhases = (
+				5315E8C7F974590AABEF944C0951D61F /* Sources */,
+				B6C78C976659A81D4181236AA0C5CC51 /* Frameworks */,
+				B951BC1B7A17FC0F916DEE9D7F47EFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SegmentRepro-SegmentRepro";
+			productName = "SegmentRepro-SegmentRepro";
+			productReference = FF28E83820AA16F3E7217B544243F6A2 /* SegmentRepro.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5C837540E7A68861503F0512C398180C /* Analytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84896811945089927E9C293740207C9 /* Build configuration list for PBXNativeTarget "Analytics" */;
+			buildPhases = (
+				1EE9460E50CF8779485C9138236C51FB /* Sources */,
+				7129EF5ADFFE9FFA8A1B274E06E378ED /* Frameworks */,
+				BC78A614796F8263275F2FDDF934A5DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A719162E442A7853C5E317FF9D619B0 /* PBXTargetDependency */,
+			);
+			name = Analytics;
+			productName = Analytics;
+			productReference = A6E9D3B48262A28A6A9C69AC47BD7D25 /* Analytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7B1ADE440ACA62EDDD1563AAE767989 /* TRVSDictionaryWithCaseInsensitivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C542B80C5185D17EED63E180B90FDAE3 /* Build configuration list for PBXNativeTarget "TRVSDictionaryWithCaseInsensitivity" */;
+			buildPhases = (
+				FA3AA182A2CB2F824B024DD96E5B747E /* Sources */,
+				1E812F15445C543C601C0B937E9A343B /* Frameworks */,
+				9BC2BDE7C953062ADB6B9ECA533E3B7A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRVSDictionaryWithCaseInsensitivity;
+			productName = TRVSDictionaryWithCaseInsensitivity;
+			productReference = 825593F8BFF5D8AE1723BD63C10D6984 /* TRVSDictionaryWithCaseInsensitivity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C837540E7A68861503F0512C398180C /* Analytics */,
+				14C21D99ABBEE017172FB1038D7507C3 /* Pods-SegmentRepro_Example */,
+				331FDE180D875AF317B4CFFDDF6BDF54 /* Pods-SegmentRepro_Tests */,
+				3C882D776CFD5FD97A2CCB556219F11F /* SegmentRepro */,
+				51CE738AD0FECF258608BDD116D49643 /* SegmentRepro-SegmentRepro */,
+				B7B1ADE440ACA62EDDD1563AAE767989 /* TRVSDictionaryWithCaseInsensitivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B951BC1B7A17FC0F916DEE9D7F47EFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDC6E8F7D375637ECD97093B184029E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEBBF2E585058C24AC648089C40F284 /* SegmentRepro.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE9460E50CF8779485C9138236C51FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEAAD139DB643A533381FFF5E67F432 /* Analytics-dummy.m in Sources */,
+				F8C47777E0D2D4365F22BC80AAB8067D /* SEGAnalytics.m in Sources */,
+				8525585ECE89AFDD1B80A786707B478E /* SEGAnalyticsIntegration.m in Sources */,
+				4542340C50D2F24933CBA7B724E643C0 /* SEGAnalyticsRequest.m in Sources */,
+				2DDDB0CEE476E935E6203D3FE299C54E /* SEGAnalyticsUtils.m in Sources */,
+				9294AD95D5E693554CA5DF9E832A96A7 /* SEGBluetooth.m in Sources */,
+				481EBC5B16357979EBE9819D9E779754 /* SEGLocation.m in Sources */,
+				D46AB70A04C1B8308F152B5F70DB2EF4 /* SEGReachability.m in Sources */,
+				CF6A752D47E1407D09D1203CFF78315E /* SEGSegmentioIntegration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5315E8C7F974590AABEF944C0951D61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C04D2FCD496623E19E725D9231868D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0544C629F285AC3B2BD45B8BE73DD567 /* ReplaceMe.m in Sources */,
+				12E1AB55D647B8ECA5A75FD5F72A5BE3 /* SegmentRepro-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C6F24AD2E85E8C301E2F4463B4AAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DD9444CB892E6347392193AA36AA1C /* Pods-SegmentRepro_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99146708EEE821F1F4E5CFF7B0324B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5ABA500B69CD278741D8CDBF052CD9 /* Pods-SegmentRepro_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3AA182A2CB2F824B024DD96E5B747E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A0AD1E6DCEEBF639A12F0BB139FF63 /* TRVSDictionaryWithCaseInsensitivity-dummy.m in Sources */,
+				F402236297044986AD29E466BBCA6E7A /* TRVSDictionaryWithCaseInsensitivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A719162E442A7853C5E317FF9D619B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRVSDictionaryWithCaseInsensitivity;
+			target = B7B1ADE440ACA62EDDD1563AAE767989 /* TRVSDictionaryWithCaseInsensitivity */;
+			targetProxy = 8E6E8BD940536D67037746ACD98BEB9A /* PBXContainerItemProxy */;
+		};
+		4FFE77C510F6F75B560D03417E0C1EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRVSDictionaryWithCaseInsensitivity;
+			target = B7B1ADE440ACA62EDDD1563AAE767989 /* TRVSDictionaryWithCaseInsensitivity */;
+			targetProxy = F5CE516EE23386F1D67171B57DB94BFA /* PBXContainerItemProxy */;
+		};
+		5033F62317B2A43970B3E204143E51DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SegmentRepro;
+			target = 3C882D776CFD5FD97A2CCB556219F11F /* SegmentRepro */;
+			targetProxy = CE50B6774C2FD6AB76788D001A36C8AF /* PBXContainerItemProxy */;
+		};
+		820490EB2D09E2702E6A123237CE182A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Analytics;
+			target = 5C837540E7A68861503F0512C398180C /* Analytics */;
+			targetProxy = 9FE2B668E4638A4D53025CDE3C380723 /* PBXContainerItemProxy */;
+		};
+		85939DAC71AAA2DC099F40D31A5E6BE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Analytics;
+			target = 5C837540E7A68861503F0512C398180C /* Analytics */;
+			targetProxy = EDB8C39B5509166CDD46815FBDD3A141 /* PBXContainerItemProxy */;
+		};
+		9972A81D53AB7D1E06EB7C330E2CEAD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SegmentRepro;
+			target = 3C882D776CFD5FD97A2CCB556219F11F /* SegmentRepro */;
+			targetProxy = 44FAEAF6F2331A928C5F67BBC7E9661D /* PBXContainerItemProxy */;
+		};
+		E8A7FCE0F084ACC8AA7B31A813036C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRVSDictionaryWithCaseInsensitivity;
+			target = B7B1ADE440ACA62EDDD1563AAE767989 /* TRVSDictionaryWithCaseInsensitivity */;
+			targetProxy = EF76093E6AD5B17794E785D84DB2A62B /* PBXContainerItemProxy */;
+		};
+		F40A4E4687DAD0D24EF746113905D926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Analytics;
+			target = 5C837540E7A68861503F0512C398180C /* Analytics */;
+			targetProxy = 42379A0A572506D150ABABCD47C84265 /* PBXContainerItemProxy */;
+		};
+		FF8B1D13D5C482A06690933C709E97C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SegmentRepro-SegmentRepro";
+			target = 51CE738AD0FECF258608BDD116D49643 /* SegmentRepro-SegmentRepro */;
+			targetProxy = BE4C7F8181A5D77BD5A5EE3B58EED716 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		16BE6CE4902921A5918993C94DC5023E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97419D9C4077C865C701375B3FE187A /* Pods-SegmentRepro_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmentRepro_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmentRepro_Tests/Pods-SegmentRepro_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SegmentRepro_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28F9303D5E0C8FD7615EA538BE0105F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F55877E8DF033DD76723D8C12E9EB31 /* Analytics-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.12.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Analytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Analytics/Analytics.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Analytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38800F1F2FCE33D15CEDA6AD230BDBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECFBA2446AFE4963E50A5CFDF74BC8D /* SegmentRepro-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SegmentRepro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4187C4929118E18B1BA790933EB1927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECFBA2446AFE4963E50A5CFDF74BC8D /* SegmentRepro-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SegmentRepro/SegmentRepro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SegmentRepro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SegmentRepro/SegmentRepro.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SegmentRepro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		465423415FC59062BF04E126524F6298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F55877E8DF033DD76723D8C12E9EB31 /* Analytics-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.12.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Analytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Analytics/Analytics.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Analytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46AA43869AB7E9EEBB350DD551BB4A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F47DCEE2603E6E4FF1EA02C2A15A40 /* Pods-SegmentRepro_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmentRepro_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmentRepro_Example/Pods-SegmentRepro_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SegmentRepro_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54C7D7F086D4D4D2C11F5A3806FD7010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF3A5FAC673A04FC461FAFA3DFDB169 /* Pods-SegmentRepro_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmentRepro_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmentRepro_Tests/Pods-SegmentRepro_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SegmentRepro_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76892B4A2F419CF720B55FE19C6DE156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECFBA2446AFE4963E50A5CFDF74BC8D /* SegmentRepro-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SegmentRepro/SegmentRepro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SegmentRepro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SegmentRepro/SegmentRepro.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SegmentRepro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		839188390EBA2224351FD0458B6F7261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B4316A95DD6F7E471C4E10BD416D13 /* TRVSDictionaryWithCaseInsensitivity-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.0.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.0.2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRVSDictionaryWithCaseInsensitivity/TRVSDictionaryWithCaseInsensitivity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRVSDictionaryWithCaseInsensitivity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TRVSDictionaryWithCaseInsensitivity/TRVSDictionaryWithCaseInsensitivity.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TRVSDictionaryWithCaseInsensitivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBCAB53A65C86D8721538AAF26D96223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECFBA2446AFE4963E50A5CFDF74BC8D /* SegmentRepro-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SegmentRepro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F3DEC78A7EB868A2AA742F1816A9594A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B4316A95DD6F7E471C4E10BD416D13 /* TRVSDictionaryWithCaseInsensitivity-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.0.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.0.2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRVSDictionaryWithCaseInsensitivity/TRVSDictionaryWithCaseInsensitivity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRVSDictionaryWithCaseInsensitivity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TRVSDictionaryWithCaseInsensitivity/TRVSDictionaryWithCaseInsensitivity.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TRVSDictionaryWithCaseInsensitivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA486642381E828A2D933718E57FDFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C893E0416D5597A3CF63201791D416DF /* Pods-SegmentRepro_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmentRepro_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmentRepro_Example/Pods-SegmentRepro_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SegmentRepro_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A656B6AF8DE72D2FD1C98F55D1F662F /* Build configuration list for PBXNativeTarget "SegmentRepro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4187C4929118E18B1BA790933EB1927C /* Debug */,
+				76892B4A2F419CF720B55FE19C6DE156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3309228B68F8448520E9720E4148864A /* Build configuration list for PBXNativeTarget "Pods-SegmentRepro_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA486642381E828A2D933718E57FDFC9 /* Debug */,
+				46AA43869AB7E9EEBB350DD551BB4A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53EEBF454F0BC50278106AB6E777E89A /* Build configuration list for PBXNativeTarget "Pods-SegmentRepro_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C7D7F086D4D4D2C11F5A3806FD7010 /* Debug */,
+				16BE6CE4902921A5918993C94DC5023E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C542B80C5185D17EED63E180B90FDAE3 /* Build configuration list for PBXNativeTarget "TRVSDictionaryWithCaseInsensitivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839188390EBA2224351FD0458B6F7261 /* Debug */,
+				F3DEC78A7EB868A2AA742F1816A9594A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84896811945089927E9C293740207C9 /* Build configuration list for PBXNativeTarget "Analytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F9303D5E0C8FD7615EA538BE0105F1 /* Debug */,
+				465423415FC59062BF04E126524F6298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9DE6B059120E9679DDAF2C3139CF539 /* Build configuration list for PBXNativeTarget "SegmentRepro-SegmentRepro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38800F1F2FCE33D15CEDA6AD230BDBB1 /* Debug */,
+				CBCAB53A65C86D8721538AAF26D96223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

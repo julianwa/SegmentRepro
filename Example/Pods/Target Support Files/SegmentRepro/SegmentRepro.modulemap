@@ -1,0 +1,6 @@
+framework module SegmentRepro {
+  umbrella header "SegmentRepro-umbrella.h"
+
+  export *
+  module * { export * }
+}
