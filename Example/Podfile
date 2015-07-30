@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SegmentRepro_Example', :exclusive => true do
+  pod "SegmentRepro", :path => "../"
+end
+
+target 'SegmentRepro_Tests', :exclusive => true do
+  pod "SegmentRepro", :path => "../"
+
+  
+end
